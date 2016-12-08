@@ -1,0 +1,9 @@
+princessbride.view.GameMenuView - You find: Paper 
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid letter - the letter must be from the menu
+princessbride.view.GameMenuView - Invalid selection - Try again
