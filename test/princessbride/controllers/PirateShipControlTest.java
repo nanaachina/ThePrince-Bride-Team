@@ -6,12 +6,14 @@
 package princessbride.controllers;
 
 import org.junit.Test;
+import princessbride.controllers.PirateShipControl;
 import static org.junit.Assert.*;
 
 /**
  *
  * @author Carlos Pari
  */
+
 public class PirateShipControlTest {
     
     public PirateShipControlTest() {
@@ -22,12 +24,12 @@ public class PirateShipControlTest {
      */
     @Test
     public void testCalTotalWater() {
-        ErrorView.display(this.getClass().getName(),"calTotalWater");
+        System.out.println("calTotalWater");
         
         /********
          * Test case # 1
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #1");
+        System.out.println("\tTest case #1");
         
         //input values for test case 1
         double people = 50.0;
@@ -42,10 +44,10 @@ public class PirateShipControlTest {
         // Compare expected return value with actual value returned
         assertEquals(expResult,result,0.1);
         
-        /********
+       /********
          * Test case # 2
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #2");
+        System.out.println("\tTest case #2");
         
         //input values for test case 2
         people = -1.0;
@@ -62,10 +64,10 @@ public class PirateShipControlTest {
         /********
          * Test case # 3
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #3");
+        System.out.println("\tTest case #3");
         
         //input values for test case 3
-        people = -1.0;
+        people = -1.0;  // Change 50.0 to -1.0 (Felix)
         days = -1.0;
         
         expResult = -1.0; //expected output returned value
@@ -79,11 +81,11 @@ public class PirateShipControlTest {
         /********
          * Test case # 4
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #4");
+        System.out.println("\tTest case #4");
         
         //input values for test case 4
         people = 60.0;
-        days = 7.0;
+        days = 7.0; //////////f
         
         expResult = -1.0; //expected output returned value
          
@@ -96,7 +98,7 @@ public class PirateShipControlTest {
         /********
          * Test case # 5
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #5");
+        System.out.println("\tTest case #5");
         
         //input values for test case 5
         people = 0.0;
@@ -113,7 +115,7 @@ public class PirateShipControlTest {
         /********
          * Test case # 6
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #6");
+        System.out.println("\tTest case #6");
         
         //input values for test case 6
          people = 50.0;
@@ -130,7 +132,7 @@ public class PirateShipControlTest {
         /********
          * Test case # 7
          ********************/
-        ErrorView.display(this.getClass().getName(),"\tTest case #7");
+        System.out.println("\tTest case #7");
         
         //input values for test case 7
         people = 40.0;

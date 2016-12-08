@@ -5,10 +5,11 @@
  */
 package princessbride.Model;
 
-import static jdk.nashorn.internal.objects.NativeArray.map;
+//import static jdk.nashorn.internal.objects.NativeArray.map;
 import princessbride.controllers.Scene;
 import princessbride.view.ErrorView;
 import princessbride.view.SceneType;
+
 
 /**
  *

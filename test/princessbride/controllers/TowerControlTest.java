@@ -6,6 +6,7 @@
 package princessbride.controllers;
 
 import org.junit.Test;
+import princessbride.controllers.TowerControl;
 import static org.junit.Assert.*;
 
 /**
@@ -22,11 +23,11 @@ public class TowerControlTest {
      */
     @Test
     public void testCalMinutes() {
-        ErrorView.display(this.getClass().getName(),"calMinutes");
+        System.out.println("calMinutes");
         /**********
          * Test case  # 1         
          *************/
-         ErrorView.display(this.getClass().getName(),"\tTest case #1");
+         System.out.println("\tTest case #1");
          //input values for test cases
         double steps = 600.0;
         double feetSec = 2.0;
@@ -43,7 +44,7 @@ public class TowerControlTest {
          * Test case  # 2        
          *******************/
          
-         ErrorView.display(this.getClass().getName(),"\tTest case #2");
+         System.out.println("\tTest case #2");
          //input values for test cases 
         steps = -1.0;
         feetSec = 2.0;
@@ -58,7 +59,7 @@ public class TowerControlTest {
          * Test case  # 3        
          *******************/
         
-        ErrorView.display(this.getClass().getName(),"\tTest case #3");
+        System.out.println("\tTest case #3");
          //input values for test cases 
         steps = 600.0;
         feetSec = -1.0;
@@ -73,7 +74,7 @@ public class TowerControlTest {
          * Test case  # 4       
          *******************/
         
-        ErrorView.display(this.getClass().getName(),"\tTest case #4");
+        System.out.println("\tTest case #4");
          //input values for test cases 
         steps = 700.0;
         feetSec = 2.0;
@@ -88,7 +89,7 @@ public class TowerControlTest {
          * Test case  # 5        
          *******************/
         
-        ErrorView.display(this.getClass().getName(),"\tTest case #5");
+        System.out.println("\tTest case #5");
          //input values for test cases 
         steps = 0.0;
         feetSec = 2.0;
@@ -103,7 +104,7 @@ public class TowerControlTest {
          * Test case  # 6        
          *******************/
         
-        ErrorView.display(this.getClass().getName(),"\tTest case #6");
+        System.out.println("\tTest case #6");
          //input values for test cases 
         steps = 600.0;
         feetSec = 0.0;
@@ -118,7 +119,7 @@ public class TowerControlTest {
          * Test case  # 7        
          *******************/
         
-        ErrorView.display(this.getClass().getName(),"\tTest case #7");
+        System.out.println("\tTest case #7");
          //input values for test cases 
         steps = 600.0;
         feetSec = 3.0;

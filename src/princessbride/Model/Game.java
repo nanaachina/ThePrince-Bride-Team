@@ -5,6 +5,7 @@
  */
 package princessbride.Model;
 
+import princessbride.PrincessBride;
 import java.io.Serializable;
 import java.util.Objects;
 

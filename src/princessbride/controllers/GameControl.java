@@ -20,6 +20,13 @@ import princessbride.view.ItemEnum;
 import princessbride.view.SceneType;
 import princessbride.Model.Inventory;
 import princessbride.exception.GameControlException;
+import princessbride.controllers.Scene;
+import princessbride.exception.MapException;
+import princessbride.Model.TheShop;
+import princessbride.Model.NPC;
+import java.awt.Point;
+import java.util.HashSet;
+
 /**
  *
  * @author adm-achina
