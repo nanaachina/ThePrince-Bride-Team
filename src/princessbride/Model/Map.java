@@ -9,6 +9,9 @@ package princessbride.Model;
 import princessbride.controllers.Scene;
 import princessbride.view.ErrorView;
 import princessbride.view.SceneType;
+import java.io.Serializable;
+import princessbride.enums.TheShop;
+
 
 
 /**

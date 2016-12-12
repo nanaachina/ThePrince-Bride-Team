@@ -66,7 +66,7 @@ public class GameMenuView extends View {
             case 'W':
                 this.moveWest();
                 break;
-            case 'Q'://Do we need this
+            case 'Q'://Do we need this (Yes so you can return to the maim menu) 
                 return true;
             default:
                 ErrorView.display(this.getClass().getName(),"Invalid selection - Try again");
@@ -128,7 +128,8 @@ public class GameMenuView extends View {
     private void moveEast() {
         MovementControl mc = new MovementControl();
         try {
-            mc.moveEast(Game.getInstance().getPlayer());
+            boolean moveEast;
+            moveEast = mc.moveEast(Game.getInstance().getPlayer());
         } catch (MovementException me) {
             System.out.println(me.getMessage());
         }

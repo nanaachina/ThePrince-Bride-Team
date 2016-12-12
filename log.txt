@@ -1,1 +1,2 @@
+princessbride.view.HelpMenuView - From the Game menu you can select which direction to move
 princessbride.view.MainMenuView - exit game

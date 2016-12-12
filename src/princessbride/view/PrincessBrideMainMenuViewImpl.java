@@ -61,7 +61,7 @@ public abstract class PrincessBrideMainMenuViewImpl extends MainMenuView {
         
    // }
 
-    private void startNewGame() {
+    public void startNewGame() {
         
     }
     

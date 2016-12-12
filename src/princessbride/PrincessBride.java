@@ -15,6 +15,7 @@ import princessbride.Model.TheShop;
 import princessbride.Model.Tower;
 import princessbride.view.ErrorView;
 import princessbride.view.StartProgramView;
+import princessbride.Model.Location;
 
 /**
  *
@@ -44,12 +45,10 @@ public class PrincessBride {
             StartProgramView startProgramView = new StartProgramView();
             startProgramView.startProgram();
             
-            return;
         } catch (Throwable e) {
             System.out.println("Exception: " + e.toString() +
                                 "\nCause: " + e.getCause() +
                                 "\nMessage: " + e.getMessage());
-            e.printStackTrace();;
         }
         finally {
             try {

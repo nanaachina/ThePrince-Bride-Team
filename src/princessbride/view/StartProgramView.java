@@ -76,7 +76,7 @@ public class StartProgramView {
             break; //out of the (exit) the repetition
         }
         
-        return name; //return the name
+        return name ; //return the name
     }
 
     private void displayWelcomeMessage(Player player) {
